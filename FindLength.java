@@ -1,9 +1,8 @@
-package string;
+package string2;
 
 public class FindLength {
 	public static void main(String[] args) {
-		String name = "trilok";
-
-		System.out.println("length = " + name.length());
+		String str = " code with java ";
+		System.out.println(str.length());
 	}
 }
