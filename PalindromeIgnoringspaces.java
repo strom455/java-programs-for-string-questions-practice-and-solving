@@ -1,8 +1,9 @@
 package string2.palindromequestions;
 
-public class CheakPalindrome {
+public class PalindromeIgnoringspaces {
 	public static void main(String[] args) {
-		String str = "madam";
+		String str = "ma dam ";
+		str = str.replace(" ", "");
 		String rev = "";
 
 		for (int i = str.length() - 1; i >= 0; i--) {
@@ -14,5 +15,6 @@ public class CheakPalindrome {
 		} else {
 			System.out.println("not palindrome");
 		}
+
 	}
 }

@@ -1,8 +1,9 @@
 package string2.palindromequestions;
 
-public class CheakPalindrome {
+public class CheakPalindromeIgnoringCase {
 	public static void main(String[] args) {
-		String str = "madam";
+		String str = "MAdaM";
+		str = str.toLowerCase();
 		String rev = "";
 
 		for (int i = str.length() - 1; i >= 0; i--) {
