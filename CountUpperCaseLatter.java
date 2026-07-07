@@ -1,18 +1,16 @@
 package stringhw;
 
-public class DigitCount {
+public class CountUpperCaseLatter {
 	public static void main(String[] args) {
-		String str = "code 34with5648 java";
+		String str = "Code wTh JAvA";
 		int count = 0;
-
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
 
-			if (Character.isDigit(ch)) {
+			if (Character.isUpperCase(ch)) {
 				count++;
-
 			}
 		}
-		System.out.println("Digit count = " + count);
+		System.out.println("uppercase letter = " + count);
 	}
 }

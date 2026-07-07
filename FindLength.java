@@ -1,8 +1,8 @@
-package string2;
+package stringhw;
 
 public class FindLength {
-	public static void main(String[] args) {
-		String str = " code with java ";
-		System.out.println(str.length());
+    public static void main(String[] args) {
+		String str = "coding with java";
+		System.out.println(str.replace('c', 'C'));
 	}
 }
